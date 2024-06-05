@@ -1864,169 +1864,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Filled"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Filled"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode, filled shape"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Filled_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "D_Filled_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Jumper:SolderJumper_3_Open"
 			(pin_names
 				(offset 0) hide)
@@ -2968,12 +2805,6 @@
 		(uuid "5e89ebaf-5fef-46f9-8901-53f3911e1a3f")
 	)
 	(junction
-		(at 107.95 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65813d41-580b-48e0-8fa3-0f3fd5419709")
-	)
-	(junction
 		(at 121.92 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2984,12 +2815,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b98040c-e1e8-4e0f-bb38-5fdbb36aa925")
-	)
-	(junction
-		(at 107.95 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8464dca2-e494-4b0c-9c6a-5277382c5519")
 	)
 	(junction
 		(at 208.28 40.64)
@@ -3125,7 +2950,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 153.67) (xy 121.92 153.67)
+			(xy 111.76 153.67) (xy 121.92 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3495,16 +3320,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 153.67) (xy 101.6 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40e35b8e-1bcd-4537-85fa-773f603cf901")
-	)
-	(wire
-		(pts
 			(xy 151.13 81.28) (xy 163.83 81.28)
 		)
 		(stroke
@@ -3662,16 +3477,6 @@
 			(type default)
 		)
 		(uuid "5b824f20-366c-4a00-971e-5d600ab2456e")
-	)
-	(wire
-		(pts
-			(xy 107.95 157.48) (xy 107.95 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c4a8a32-1a79-4d99-aefd-ed80c60b8645")
 	)
 	(wire
 		(pts
@@ -3905,16 +3710,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 165.1) (xy 107.95 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99bf65cd-e213-469d-9c80-472161bd4d53")
-	)
-	(wire
-		(pts
 			(xy 198.12 106.68) (xy 215.9 106.68)
 		)
 		(stroke
@@ -4015,7 +3810,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 163.83) (xy 101.6 170.18)
+			(xy 111.76 163.83) (xy 111.76 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4135,7 +3930,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 153.67) (xy 101.6 158.75)
+			(xy 111.76 153.67) (xy 111.76 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4205,16 +4000,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 170.18) (xy 121.92 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddbc134a-4431-4406-b82f-f673425400da")
-	)
-	(wire
-		(pts
 			(xy 196.85 50.8) (xy 215.9 50.8)
 		)
 		(stroke
@@ -4235,7 +4020,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 170.18) (xy 107.95 170.18)
+			(xy 111.76 170.18) (xy 121.92 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5582,94 +5367,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Filled")
-		(at 107.95 161.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3cdfab22-14c2-4eca-992e-e5e1e5e9517f")
-		(property "Reference" "D101"
-			(at 109.982 160.0778 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 109.982 162.5021 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, filled shape"
-			(at 107.95 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 107.95 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 107.95 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8e3088d8-e2ec-4e5d-a8c1-00551339e4b0")
-		)
-		(pin "1"
-			(uuid "7a37e578-c566-42df-bcff-53b5650a25aa")
-		)
-		(instances
-			(project "Q940"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 121.92 173.99 0)
 		(unit 1)
@@ -6015,7 +5712,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 101.6 161.29 0)
+		(at 111.76 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6023,7 +5720,7 @@
 		(dnp no)
 		(uuid "6a820f7e-0f2a-468b-b583-4418be9f4b1c")
 		(property "Reference" "C106"
-			(at 92.456 160.02 0)
+			(at 102.616 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6032,7 +5729,7 @@
 			)
 		)
 		(property "Value" "0.1uF/50V"
-			(at 87.884 163.322 0)
+			(at 98.044 163.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6041,7 +5738,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
-			(at 101.6 161.29 0)
+			(at 111.76 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6050,7 +5747,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 161.29 0)
+			(at 111.76 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6059,7 +5756,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 101.6 161.29 0)
+			(at 111.76 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
